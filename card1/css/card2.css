@@ -89,7 +89,7 @@ a {text-decoration:none;}
 	margin: 0px 2px;
 
 }
-.card > .index > .comment > span{
+.card > .index > .comment > span.comment_cnt{
 	color: #000000;	
 	margin: 0px 2px;
 	font-family: Roboto;
@@ -140,8 +140,8 @@ a {text-decoration:none;}
 	font-style: normal;
 	font-weight: normal;
 }
-/* p */
-.card > .article > p {
+/* h1 */
+.card > .article > h1 {
 	color: #000000;
 
 	margin: 5px 0;
@@ -152,8 +152,8 @@ a {text-decoration:none;}
 
 }
 
-/* span */
-.card > .article > span{
+/* .author */
+.card > .article > div.author{
 	color: #4F4F4F;
 	margin: 5px 0px;
 
@@ -162,7 +162,7 @@ a {text-decoration:none;}
 	line-height: 16px;
 }
 /* .content */
-.card > .article > .content{
+.card > .article > p.content{
 	color: #333333;
 	margin: 5px 0px;
 
@@ -176,7 +176,7 @@ a {text-decoration:none;}
 	font-weight: normal;
 	padding: 10px;
 }
-/* tag */
+/* .tag */
 .card > .title .tag{
 	width: 49px;
 	height: 22px;
