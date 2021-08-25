@@ -1,0 +1,111 @@
+/* card */
+.card {
+  /* border: 1px solid red; */
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+  margin: 30px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+/* profile */
+.card>.profile {
+  height: 59px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+}
+
+.card>.profile .avatar {
+  width: 39px;
+  height: 39px;
+}
+
+.card>.profile>.info {
+  width: 175px;
+  height: 33px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 11px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.card>.profile>.info span.name {
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+
+}
+
+.card>.profile>.info span.time {
+
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+
+.card>.profile>.setting {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-self: end;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* photo */
+.card .photo
+{
+ width: 280px;
+ height: 220px; 
+}
+
+/* article */
+.card>.article {
+  width: 269px;
+  margin: 0 5.5px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* h1 */
+.card>.article>h1 {
+  color: #000000;
+  margin: 5px 0;
+
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* .author */
+.card>.article>div.author {
+  color: #4F4F4F;
+  margin: 5px 0px;
+
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* .content */
+.card>.article>p {
+  color: #333333;
+  margin: 5px 0px;
+
+  font-size: 12px;
+  line-height: 14px;
+}
