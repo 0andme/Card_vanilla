@@ -1,0 +1,59 @@
+/* .card */
+.card {
+  width: 280px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* .photo */
+.card>div.photo {
+  width: 280px;
+  height: 220px;
+  background-image: url("../images/Image2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* .index */
+.index {
+  width: 280px;
+  padding: 10px;
+  box-sizing: border-box;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* .index .tag */
+.index .tag {
+  width: 43px;
+  height: 22px;
+  background: #EB5757;
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* .index .tag span.percent*/
+.index .tag span.percent {
+  font-size: 10px;
+  color: #FFFFFF;
+  line-height: 22px;
+  
+}
+
+/* .index h1 */
+.index h1 {
+  color: #000000;
+
+  font-size: 24px;
+  line-height: 28px;
+
+  margin: 8px 0 0;
+}
